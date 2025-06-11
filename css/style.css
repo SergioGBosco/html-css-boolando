@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+/* Header */
+
+ul {
+  list-style: none;
+}
+
+ul li,
+i {
+  padding: 10px 5px;
+}
+
+header {
+  box-shadow: 0px 1px 5px black;
+}
+
+
+
+/* Background color */
+
+.bg-orange {
+  background-color: #ff6900;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+/* color */
+
+.white {
+  color: #fff;
+}
+
+/* Utility */
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.h-30 {
+  height: 30px;
+}
