@@ -175,3 +175,21 @@ h4 {
 .heart:hover {
   color: red;
 }
+
+/* Hover */
+
+.front-img {
+  display: block;
+}
+
+.back-img {
+  display: none;
+}
+
+.col-33:hover .front-img {
+  display: none;
+}
+
+.col-33:hover .back-img {
+  display: block;
+}
