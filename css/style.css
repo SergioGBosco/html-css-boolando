@@ -13,6 +13,12 @@
   display: flex;
 }
 
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 /* Header */
 
 ul {
@@ -25,10 +31,12 @@ i {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   box-shadow: 0px 1px 5px black;
+
 }
-
-
 
 /* Background color */
 
@@ -58,4 +66,16 @@ header {
 
 .h-30 {
   height: 30px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.col-33 {
+  width: calc(100% / 3 - 10px);
+}
+
+.pt-100 {
+  padding: 100px 0;
 }
