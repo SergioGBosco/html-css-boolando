@@ -116,3 +116,8 @@ h4 {
 .py-20 {
   padding: 20px 0;
 }
+
+.sconto {
+  text-decoration: line-through;
+  padding-left: 5px;
+}
