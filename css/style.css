@@ -104,12 +104,24 @@ header {
   height: 400px;
 }
 
+.h-1000 {
+  height: 1000px;
+}
+
 .col-33 {
   width: calc(100% / 3 - 10px);
 }
 
+.col-100 {
+  width: 100%;
+}
+
 .pt-100 {
   padding: 100px 0;
+}
+
+.h-100 {
+  max-height: 100%;
 }
 
 .w-100 {
@@ -191,5 +203,13 @@ h4 {
 }
 
 .col-33:hover .back-img {
+  display: block;
+}
+
+.col-100:hover .front-img {
+  display: none;
+}
+
+.col-100:hover .back-img {
   display: block;
 }
