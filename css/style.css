@@ -132,6 +132,10 @@ header {
   font-size: 12px;
 }
 
+p {
+  margin: 20px 0;
+}
+
 h4 {
   text-transform: uppercase;
 }
